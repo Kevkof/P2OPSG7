@@ -1,0 +1,27 @@
+# host_vars/lamp.yml
+# Variables visible to all nodes
+---
+rhbase_repositories:
+  - epel-release
+
+rhbase_firewall_allow_services:
+  - http
+  - https
+  
+
+#Database init voor wordpress
+mariadb_databases:
+  - wp_db
+  
+mariadb_root_password: fogMeHud8
+
+mariadb_users:
+  - name: wp_user
+    password: CorkIgWac
+    priv: wp_db.*:ALL
+    
+#Wordpress
+
+wordpress_database: wp_db
+wordpress_user: wp_user
+wordpress_password: CorkIgWac

@@ -1,0 +1,3 @@
+[https://stormpath.com/blog/tutorial-deploy-asp-net-core-on-linux-with-docker](https://stormpath.com/blog/tutorial-deploy-asp-net-core-on-linux-with-docker "Tutorial: Deploy an ASP.NET Core Application on Linux with Docker")
+
+[https://channel9.msdn.com/Events/dotnetConf/2016/Deploying-ASPNET-Core-applications-using-Docker-Containers](https://channel9.msdn.com/Events/dotnetConf/2016/Deploying-ASPNET-Core-applications-using-Docker-Containers "Video Deploying asp.net apps met docker containers")

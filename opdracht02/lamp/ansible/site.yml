@@ -1,0 +1,11 @@
+# site.yml
+---
+- hosts: lamp
+  sudo: true
+  roles:
+    - bertvv.rh-base  
+    - bertvv.mariadb
+    - bertvv.httpd
+    - bertvv.wordpress
+
+
